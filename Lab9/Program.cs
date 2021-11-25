@@ -14,7 +14,7 @@ namespace Lab9
             int firstNumber = 0;
             int secondNumber = 0;
             int operationCode = 0;
-            int test = 0;
+            int test;
             Console.Write("Введите целое число. X=");
             bool checkFirst = true;
             try
