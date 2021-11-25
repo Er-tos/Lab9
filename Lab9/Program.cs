@@ -80,6 +80,7 @@ namespace Lab9
                             try
                             {
                                 test = firstNumber / secondNumber;
+                                Console.Write("Результат: ");
                                 Console.WriteLine(Math.Round(Convert.ToDouble(firstNumber) / Convert.ToDouble(secondNumber), 2));
                             }
                             catch (Exception ex)
